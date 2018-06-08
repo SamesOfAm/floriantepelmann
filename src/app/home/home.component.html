@@ -1,0 +1,51 @@
+<div class="background">
+    <div class="main-content">
+        <div *ngIf="overview" class="text">
+            <a href="#" (click)="backHome()" class="back-button">< Back</a>
+            <div *ngFor="let work of workData[catId].works let i = index">
+                <a href="#" (click)="showDetail(i)"><h3 class="overview-headline">{{ work.name }}</h3></a>
+                <a href="#" (click)="showDetail(i)"><p class="overview-paragraph">{{ work.overviewText }}</p></a>
+            </div>
+        </div>
+        <div *ngIf="detail" class="text">
+            <a href="#" (click)="backOverview(catId)" class="back-button">< Back</a>
+            <h2>{{ work.name }}</h2>
+            <div class="detail-paragraph">
+                <p *ngFor="let description of work.descriptions">{{ description }}</p>
+            </div>
+        </div>
+    </div>
+    <div id="headline">
+        <h1 id="headline-text">{{ headline }}<span> {{ subheadline }}</span></h1>
+    </div>
+    <div class="menu">
+        <a href="#">
+            <div class="box music-box" (click)="changeHeadline(0);">
+                <div class="menu-text">
+                    <span>music</span>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box program-box" (click)="changeHeadline(1)">
+                <div class="menu-text">
+                    <span>program</span>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box about-box" (click)="changeHeadline(2)">
+                <div class="menu-text">
+                    <span>about</span>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box links-box" (click)="changeHeadline(3)">
+                <div class="menu-text">
+                    <span>links</span>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>

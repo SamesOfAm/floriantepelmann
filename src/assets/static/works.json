@@ -1,0 +1,80 @@
+{
+  "workData": [
+    {
+      "categoryName": "Music",
+      "works": [
+        {
+          "name": "Encoding Kunstfiguren",
+          "overviewText": "Soundtrack for video documentary of the costumes and gestures of Liese Endler's performance 'Encoding Kunstfiguren'",
+          "descriptions": [
+            "This work was concerned with the presence of WiFi networks in our everyday environment.",
+            "First presented as part of Liese Endler's Master's Thesis 'Encoding Kunstfiguren' as part of the "
+          ]
+        },
+        {
+          "name": "Öresund",
+          "overviewText": "A song written for the passage of the Öresund Bridge",
+          "descriptions": [
+            "This song accompanied a car ride of friends from Germany to Sweden via Denmark over the Öresund Bridge.",
+            "The duration is approximately the time it takes for an average car to cross in usual night traffic. The mood of the song compliments the scenery and reflects the rhythm of the passing lights overhead and the slow approach of the giant pillars towards the second third of the bridge."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "Programs",
+      "works": [
+        {
+          "name": "WiFi Sonification",
+          "overviewText": "An app to represent nearby WiFi networks sonically or musically, first used in „Encoding Kunstfiguren“, April 2018.",
+          "descriptions": [
+            "Computers and laptops constantly communicate with surrounding WiFi networks. But other than the occasional humorous name, this ever-present, massive communication has no tangible effect on us as humans. The number may vary from very few available networks in rural areas to hundreds of them in more populated locations, but in a contemporary western human habitat this conversation never stops and perpetually changes. Networks disappear, others emerge, signal strengths rise and ebb away again, even when your device remains still.",
+            "The first version of a program to make this ongoing exchange palpable was created in Max 7. Permanently audible soundwaves were altered by the available networks’ BSSIDs (addresses, made up of six numbers from 0 to 255) and their respective signal strengths informed their volume. While being the closest aural equivalence to a layperson’s „image“ of WiFi waves constantly surrounding us, the first algorithm did not represent changes of network availability in a recognizable way. The constant flow of waves was nothing but just that: constantly flowing.",
+            "Approaching Liese Endler’s Master’s Thesis and Defence (the performance „Encoding Kunstfiguren“ [LINK]), it soon became clear that the Kunstfigur „Archivist“, or KNSTFGR_1, would benefit from a device to add a sonic layer to the performance while at the same time supporting ideas of ever-present data flow and surveillance. The program, which was not yet portable other than with a laptop, had to be adapted to fit the needs of a Spaziergang-as-performance and changes in networks over the course of the walk would have to be made more audible.",
+            "An app for Android devices was conceived, so that a smartphone could be carried in the pockets of the performer, together with a bluetooth loudspeaker. Instead of lingering soundwaves, the available networks now trigger readymade sounds, originally created to compose music for the performance’s documentational video [LINK]. While veering away from the idea of representing waves in the air, this approach facilitated recognition across different points of engagement with the work and made for a more musical and thus theatrical backdrop for the performance."
+          ]
+        },
+        {
+          "name": "Voyager 3",
+          "overviewText": "Which sense serves which purpose? Converting user-uploaded pictures into sound and playing it back into a room and airing it online, this installation / online performance turns the audience into alien life forms encountering a golden record on a spacecraft.",
+          "descriptions": [
+            "Missions Voyager 1 and Voyager 2 of the NASA were equipped with a gilded copper record, whose contents (scientific drawings, sounds, verbal greetings, musical pieces, writings) were supposed to represent human existence to possible extraterrestrial life forms. Being mostly concerned with the question how well this collection represented humanity or the lack of probability of the records ever being found and if, in such an unlikely event, human life would still be in existence at that point, public discussion revolved less around the question of perception. With which organs or senses would life forms perceive the data on the record? How likely will they have a vision or hearing that could decode it in the intended way?",
+            "„Voyager 3“ interpreted visual input as sound and thus evoked the idea of perceiving something with the „wrong“ sense. Staged in a performance space in Hamburg, the piece invited online visitors to upload pictures they deemed worthy of summing up the human condition to a dedicated website. A program written in Max 7 converted them, pixel by pixel and milisecond by milisecond into sound which played in the space and on an online broadcast. In addition, a projector drenched the room into the color of the pixel being processed in that milisecond. The performance space had a camera installed for online visitors to be able to witness also visually the outcome of their interactions with the room.",
+            "The resulting experience emphasized the fragility of perception as we take it for granted in everyday life. On a side-note, it also questioned the representational quality of a collection made by mid-aged white anglo-saxon men to represent all of mankind on one record by welcoming any contribution without curation to the endeavor, however futile it may be."
+          ]
+        },
+        {
+          "name": "ECHO/Bühnen Looper",
+          "overviewText": "A program to take audio input from microphones at the press of a foot switch, record and loop little bits, manipulate them and echo them back into the performance room.  ",
+          "descriptions": [
+            "The question of Echo as mythical figure and as physical phenomenon were at the center of friendly fire’s durational performance „ECHO/Raum #1“, staged in February 2013 during the symposium Die Praxis der/des Echo in Leipzig.",
+            "The program, written for the piece in Max 6, served to record the voices of the performers with microphones and the help of a foot switch/pedal to be able to feed them back, or echo them, into the performance space at later points in time. Furthermore, the possibility for the director Michael Wehren to sonically shape and alienate the echoed material evoked the mythical figure's only way of expressing herself through slight changes in the repeated utterings.",
+            "The program found use again in the performance „BÜHNEN. ENTER THE STAGES“ staged in Leipzig’s Centraltheater (now Schauspiel Leipzig) in a similar way."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "About",
+      "works": [
+        {
+          "name": "",
+          "descriptions": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "Links",
+      "works": [
+        {
+          "name": "",
+          "descriptions": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
